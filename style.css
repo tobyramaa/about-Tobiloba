@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;
+}
+header{
+    background-color: #4d84a6;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aquamarine;
+}
+
+nav{
+    padding: 15px;
+   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+
+.about-me{
+    padding: 20px;
+    margin: 30px;
+}
+
+.my-hobbies{
+    padding: 20px;
+    margin: 30px;
+}
+.my-contact {
+    padding: 20px;
+    margin: 30px;
+}
+
+
+.project-image{
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 5px;      
+    margin-top: 15px;
+}
+
+.hobbies-list {
+    padding-left: 20px;   
+    margin-top: 15px;
+}
+
+.hobbies-list li {
+    margin-bottom: 10px;    
+    font-size: 16px;
+}
+
+
+.hobbies-list li::marker {
+    color: #0077cc;        
+    font-size: 18px;
+}
+
+
+
